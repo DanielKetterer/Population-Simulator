@@ -84,6 +84,8 @@ To run the simulation, execute:
 python PopulationSimulator.py
 ```
 
+If you want to use preloaded data, save the survival_data.csv file in the same directory as the code
+
 ### What Happens When You Run the Simulation?
 
 - **Simulation Duration:**  
