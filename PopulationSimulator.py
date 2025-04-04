@@ -165,7 +165,7 @@ class Simulator:
 
 if __name__ == "__main__":
     simulation_months = 600  # 50 years (600 months)
-    episodes = 120             # Number of simulation runs per (initial_population, ancestry_limit) combination
+    episodes = 750             # Number of simulation runs per (initial_population, ancestry_limit) combination
     sizes = range(1, 110)    # Testing different initial population sizes
     ancestry_limits = [0, 1e200]  # 0 means ancestral breeding allowed; 1e200 means (practically) no mating with ancestors.
     # We test both because its an interesting question in this population restricted scenario.
